@@ -1,3 +1,4 @@
 test\Test.class
 Pages\CadastroPage.class
 Utils\BasePage.class
+Runner.class
