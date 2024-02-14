@@ -1,4 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: Runner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.496 s - in Runner
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 13.916 s <<< FAILURE! - in Runner
+Register.Visualizar error en nombre  Time elapsed: 2.829 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<...ira um nome completo[s].> but was:<...ira um nome completo[].>
+
