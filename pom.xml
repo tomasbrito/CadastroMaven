@@ -24,15 +24,10 @@
                         <include>**/Runner.java</include>
                     </includes>
                     <testFailureIgnore>true</testFailureIgnore>
-                    <systemPropertyVariables>
-                        <!--suppress UnresolvedMavenProperty -->
-                    </systemPropertyVariables>
                 </configuration>
             </plugin>
         </plugins>
     </build>
-
-
 
 
 
