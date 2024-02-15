@@ -1,6 +1,6 @@
 Feature: Register
 
-@Test
+@Smoke
   Scenario: Verificar elementos en la pagina de registro
 Given estoy en la pagina de registro
 Then deberia ver el campo de nombre con el valor inicial vacio
