@@ -63,7 +63,7 @@
             </elementProp>
           </HTTPSamplerProxy>
           <hashTree>
-            <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor">
+            <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="false">
               <stringProp name="JSONPostProcessor.referenceNames">email</stringProp>
               <stringProp name="JSONPostProcessor.jsonPathExprs">$..data[0].email</stringProp>
               <stringProp name="JSONPostProcessor.match_numbers"></stringProp>
@@ -83,7 +83,7 @@
                 <elementProp name="" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
                   <stringProp name="Argument.value">{&#xd;
-    &quot;email&quot;: &quot;${email}&quot;,&#xd;
+    &quot;email&quot;: &quot;${Email}&quot;,&#xd;
     &quot;password&quot;: &quot;${Productor}&quot;&#xd;
 }</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
